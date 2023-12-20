@@ -1,8 +1,10 @@
 # Continuous integration practical
 ## Pre requisites
 - [Have npm installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
+- [Have a GitHub account](https://github.com/)
 
 ## Set up a basic project
+- Go to whichever folder you like to keep your code in
 - Use create react app to create a basic project
 
 ```
@@ -16,7 +18,7 @@ npx create-react-app {{my-app-name}}
 cd {{my-app-name}}
 ```
 
-- initialise git and create your first commit
+- Initialise git and create your first commit
 ```
 git init
 git status
@@ -27,10 +29,10 @@ git branch -M main
 git push -u origin main
 ```
 
-- get the App.js and app.css files from the folder in this repo
-- replace the standard create react app ones with these
-- run it, see it working, run the tests, fix the tests
-- once you are happy, create a branch and commit to it and push the commit
+- Get the App.js and app.css files from the folder in this repo
+- Replace the standard create react app ones with these
+- Run it, see it working, run the tests, fix the tests
+- Once you are happy, create a branch and commit to it and push the commit
 
 ```
 git branch part-1
@@ -51,15 +53,15 @@ git push
 - Go to branches
 - Add a branch protection rule to main
 - "Require status checks to pass before merging"
-- status check = build (16.x)
+- Status check = build (16.x)
 - Take a look at the other potential rules, anything you think looks useful?
 - Create a branch, make a change, push it and make a pull request.
 - See the checks pass
 - Push a breaking change
 - Hopefully see the checks fail!
 
-## potential problems
+## Potential problems
 - installing things globally https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally
-- 
+
 
 
