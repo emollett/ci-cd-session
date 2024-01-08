@@ -24,7 +24,7 @@ git init
 git status
 git add .
 git commit -m "first commit"
-git remove add origin {{your repo here}}
+git remote add origin {{your repo here}}
 git branch -M main
 git push -u origin main
 ```
